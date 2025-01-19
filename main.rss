@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Anyosil's Video Feed</title>
+    <link>https://example.com</link>
+    <description>A feed of videos</description>
+    <language>en-gb</language>
+    <pubDate>Sun, 19 Jan 2025 12:00:00 GMT</pubDate>
+    <lastBuildDate>Sun, 19 Jan 2025 12:00:00 GMT</lastBuildDate>
+
+    <!-- Video Item 1 -->
+    <item>
+      <title>Sample Video 1</title>
+      <link>./videos/Nokia N8 Unboxing HD.mp4</link>
+      <description>This is the first sample video.</description>
+      <pubDate>Sat, 18 Jan 2025 10:00:00 GMT</pubDate>
+      <guid>https://example.com/videos/video1</guid>
+      <enclosure url="./videos/Nokia N8 Unboxing HD.mp4" type="video/mp4" length="257" />
+    </item>
+
+    <!-- Video Item 2 -->
+    <item>
+      <title>Sample Video 2</title>
+      <link>https://example.com/videos/video2</link>
+      <description>This is the second sample video.</description>
+      <pubDate>Sun, 19 Jan 2025 11:00:00 GMT</pubDate>
+      <guid>https://example.com/videos/video2</guid>
+      <enclosure url="https://example.com/videos/video2.mp4" type="video/mp4" length="23456789" />
+    </item>
+  </channel>
+</rss>
